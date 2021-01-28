@@ -1,0 +1,75 @@
+.fill {
+    width: 800px;
+    background-color: #ffffff;
+    box-shadow: 0 0 9px 0 rgba(0, 0, 0, 0.3);
+    margin: 45px auto;
+}
+
+.fill h1 {
+    text-align: center;
+    color: #5b6574;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+    border-bottom: 1px solid #dee0e4;
+}
+
+.fill h3 {
+    text-align: left;
+    margin-left: 6%;
+    color: darkgray;
+    font-size: 12px;
+    padding: 20px 0 20px 0;
+
+}
+
+.fill form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.fill form label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    background-color: #3274d6;
+    color: #ffffff;
+}
+
+.fill form input[type="password"],
+.fill form input[type="text"] {
+    width: 85%;
+    height: 50px;
+    border: 1px solid #32a1ce;
+    background-color: lightblue;
+    margin-bottom: 20px;
+    padding: 0 15px;
+}
+
+.fill form input[type="submit"] {
+    width: 20%;
+    margin-left: 50%;
+    padding: 15px;
+    margin-top: 20px;
+    background-color: darkslategrey;
+    border: 0;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+    transition: background-color 0.2s;
+}
+
+.fill form input[type="submit"]:hover {
+    background-color: #2868c7;
+    transition: background-color 0.2s;
+}
+
+.fill a {
+    padding: 5px;
+    text-decoration: none;
+    color: chocolate;
+    font-weight: bold;
+}
